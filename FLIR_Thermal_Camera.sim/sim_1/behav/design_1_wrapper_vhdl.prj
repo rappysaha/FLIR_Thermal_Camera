@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../FLIR_Thermal_Camera.ip_user_files/bd/design_1/ip/design_1_ila_0_0/sim/design_1_ila_0_0.vhd"
+vhdl xil_defaultlib  "../../../FLIR_Thermal_Camera.ip_user_files/bd/design_1/hdl/design_1.vhd"
+vhdl xil_defaultlib  "../../../FLIR_Thermal_Camera.ip_user_files/bd/design_1/ipshared/b1d9/src/lepton_if.vhd"
+vhdl xil_defaultlib  "../../../FLIR_Thermal_Camera.ip_user_files/bd/design_1/ip/design_1_lepton_if_0_0/sim/design_1_lepton_if_0_0.vhd"
+vhdl util_vector_logic_v2_0  "../../../FLIR_Thermal_Camera.ip_user_files/bd/design_1/ipshared/1d19/hdl/util_vector_logic.vhd"
+vhdl xil_defaultlib  "../../../FLIR_Thermal_Camera.ip_user_files/bd/design_1/ip/design_1_util_vector_logic_0_0/sim/design_1_util_vector_logic_0_0.vhd"
+vhdl xil_defaultlib  "../../../FLIR_Thermal_Camera.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd"
+
+# Do not sort compile order
+nosort

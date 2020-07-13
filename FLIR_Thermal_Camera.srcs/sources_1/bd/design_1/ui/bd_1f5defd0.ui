@@ -1,0 +1,73 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port lepton_reset -pg 1 -y 660 -defaultsOSRD
+preplace port clk_in1_p -pg 1 -y 80 -defaultsOSRD
+preplace port vga_pVSync -pg 1 -y 610 -defaultsOSRD
+preplace port vga_pHSync -pg 1 -y 590 -defaultsOSRD
+preplace port miso -pg 1 -y 370 -defaultsOSRD
+preplace port frame_val -pg 1 -y 380 -defaultsOSRD
+preplace port lepton_if_reset -pg 1 -y 190 -defaultsOSRD
+preplace port nRESET_LEPTON -pg 1 -y 360 -defaultsOSRD
+preplace port resetn -pg 1 -y 100 -defaultsOSRD
+preplace port line_val -pg 1 -y 320 -defaultsOSRD
+preplace port ss -pg 1 -y 340 -defaultsOSRD
+preplace port sclk -pg 1 -y 100 -defaultsOSRD
+preplace port clk_in1_n -pg 1 -y 60 -defaultsOSRD
+preplace portBus vga_pGreen -pg 1 -y 550 -defaultsOSRD
+preplace portBus mosi -pg 1 -y 450 -defaultsOSRD
+preplace portBus vga_pRed -pg 1 -y 530 -defaultsOSRD
+preplace portBus vga_pBlue -pg 1 -y 570 -defaultsOSRD
+preplace inst Cntrl_BRAM_out_0 -pg 1 -lvl 4 -y 840 -defaultsOSRD
+preplace inst R_CONST -pg 1 -lvl 4 -y 400 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 3 -y 610 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 7 -y 450 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 2 -y 600 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 3 -y 820 -defaultsOSRD
+preplace inst lepton_if_0 -pg 1 -lvl 4 -y 190 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 6 -y 610 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 5 -y 490 -defaultsOSRD
+preplace inst B_CONST -pg 1 -lvl 4 -y 560 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 7 -y 180 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 70 -defaultsOSRD
+preplace inst G_CONST -pg 1 -lvl 4 -y 480 -defaultsOSRD
+preplace inst rgb2vga_0 -pg 1 -lvl 7 -y 580 -defaultsOSRD
+preplace netloc xlconstant_1_dout 1 2 3 640 700 NJ 700 1290J
+preplace netloc rgb2vga_0_vga_pRed 1 7 1 2120J
+preplace netloc lepton_if_0_enb 1 4 3 1240 230 NJ 230 1730J
+preplace netloc Cntrl_BRAM_out_0_addrB 1 4 1 1280
+preplace netloc lepton_if_0_web 1 4 3 N 250 NJ 250 1740J
+preplace netloc clk_wiz_0_locked 1 1 6 420J 10 NJ 10 NJ 10 NJ 10 NJ 10 1810
+preplace netloc clk_in1_n_1 1 0 1 NJ
+preplace netloc lepton_if_0_sclk 1 4 4 1280J -30 NJ -30 NJ -30 2140J
+preplace netloc rgb2vga_0_vga_pGreen 1 7 1 2120J
+preplace netloc lepton_if_0_rstb 1 4 3 N 210 NJ 210 1720J
+preplace netloc miso_1 1 0 7 -20J 210 NJ 210 NJ 210 940 40 NJ 40 NJ 40 1780J
+preplace netloc lepton_if_0_miso_data 1 4 3 N 130 NJ 130 1750J
+preplace netloc util_vector_logic_0_Res 1 3 1 940
+preplace netloc v_tc_0_vsync_out 1 2 5 640 720 940J 720 NJ 720 NJ 720 1790J
+preplace netloc lepton_if_0_ss 1 4 4 N 110 NJ 110 1750J -20 2120J
+preplace netloc lepton_if_0_line_val 1 4 4 N 170 NJ 170 1790J 0 2110J
+preplace netloc lepton_if_0_addrb 1 4 3 1260 270 NJ 270 1760J
+preplace netloc lepton_reset_1 1 0 8 -20 710 NJ 710 NJ 710 NJ 710 NJ 710 NJ 710 NJ 710 2140J
+preplace netloc xlconcat_0_dout 1 6 1 1760
+preplace netloc xlconstant_0_dout 1 7 1 NJ
+preplace netloc resetn_1 1 0 3 -20 150 NJ 150 630J
+preplace netloc rgb2vga_0_vga_pVSync 1 7 1 2150
+preplace netloc rgb2vga_0_vga_pHSync 1 7 1 2150J
+preplace netloc clk_wiz_0_clk_out1 1 1 6 430J 30 NJ 30 NJ 30 NJ 30 NJ 30 1800
+preplace netloc clk_wiz_0_clk_out2 1 1 3 NJ 60 NJ 60 970
+preplace netloc v_tc_0_hsync_out 1 3 4 NJ 610 1250J 310 NJ 310 1720J
+preplace netloc lepton_if_0_line_out 1 4 3 N 150 NJ 150 NJ
+preplace netloc blk_mem_gen_0_doutb 1 4 2 1290 340 1520
+preplace netloc lepton_if_0_dinb 1 4 3 1230 290 NJ 290 1770J
+preplace netloc Net 1 1 6 NJ 80 640 80 960J 350 1270 300 NJ 300 1730J
+preplace netloc reset_1 1 0 4 NJ 190 NJ 190 NJ 190 NJ
+preplace netloc lepton_if_0_frame_val 1 4 4 1230J -40 NJ -40 1820J -40 2130J
+preplace netloc v_tc_0_active_video_out 1 3 4 950J 690 NJ 690 NJ 690 1810J
+preplace netloc rgb2vga_0_vga_pBlue 1 7 1 2150J
+preplace netloc clk_in1_p_1 1 0 1 NJ
+levelinfo -pg 1 -40 320 560 820 1110 1420 1630 1970 2170 -top -310 -bot 900
+",
+}
+0
